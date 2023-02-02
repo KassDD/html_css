@@ -1,3 +1,12 @@
-    p {color:blue}
-    h1 {color:red; border:1px solid seagreen; border-radius: 10px;}
-    h1:hover {box-shadow: 0 0 10px 0 #000;}
+p {
+  color: blue;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h1 {
+  color: red;
+  border: 1px solid seagreen;
+  border-radius: 10px;
+}
+h1:hover {
+  box-shadow: 0 0 10px 0 #000;
+}
