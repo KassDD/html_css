@@ -1,24 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Ass</title>
+  <title>1</title>
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  hello world, kuku epta
-  <h1 style="color: blueviolet; border: 1px dashed">This is a heading</h1>
-  <p class="text">This is a paragraph.</p>
-  <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem cupiditate quia fuga eius libero quidem nulla dicta doloremque doloribus cumque reprehenderit magnam, ullam optio provident! Perferendis consequuntur beatae at aspernatur!</h1>
-  <span hidden="false">scscscscscs</span>
-  <span>tytytytytyt</span>
-  <div>111111</div>
-  <div>222222</div>
-  <div>333333</div>
-  <script>
-    console.error("chto-to")
-    console.log(document.querySelectorAll('h1'))
-    document.querySelector('.text').style.color='green'
-    </script>
+  <div class="main_space">
+  <form class="main_form" action="javascript:submit()">
+    <label for="anything" class="main_label">enter you CVV</label>
+    <input class="main_input" id="anything" type="text" placeholder="3 digits"/>
+    <button class="main_button" type="submit">put your finger</button>
+  </form>
+  <ul class="main_list">
+    <li class="main_value">
+      <span class="main_text">1</span>
+      <button class="main_list_button_trash">⚔</button>
+      <button class="main_list_button_edit">⚔</button>
+    </li>
+    <li class="main_value">
+      <span class="main_text">2</span>
+      <button class="main_list_button_trash">⚔</button>
+      <button class="main_list_button_edit">⚔</button>
+    </li>
+    <li class="main_value">
+      <span class="main_text">3</span>
+      <button class="main_list_button_trash">⚔</button>
+      <button class="main_list_button_edit">⚔</button>
+    </li>
+  </ul>
+  <p class="main_paragraph" hidden="">Empty list</p>
+  </div>
   <script src="index.js"></script>
 </body>
 </html>
