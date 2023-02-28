@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 import IconEdit from './icons/icon-edit.svg'
 import IconRemove from './icons/icon-remove.svg'
@@ -32,6 +33,8 @@ function App() {
     <div className='App'>
       <div className='main_space'>
         <form className='main_form'>
+          <Link to='/'>Home</Link>
+
           <label htmlFor='anything' className='main_label'>
             Enter you CVV
           </label>
