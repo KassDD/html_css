@@ -25,6 +25,14 @@
       "oAP" : "\/.gitattributes",
       "oF" : 0
     },
+    "\/.gitignore" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/.gitignore",
+      "oF" : 0
+    },
     "\/.prettierrc.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -44,14 +52,6 @@
       "oAP" : "\/index-min.css",
       "oF" : 0,
       "pg" : 0
-    },
-    "\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/index.html",
-      "oF" : 0
     },
     "\/index.js" : {
       "bF" : 0,
@@ -79,6 +79,86 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/node_modules" : {
+      "ft" : 65536,
+      "oA" : 2,
+      "oAP" : "\/node_modules",
+      "oF" : 0
+    },
+    "\/package-lock.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/package-lock-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/package.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/package-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/public\/favicon.ico" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/favicon.ico",
+      "oF" : 0
+    },
+    "\/public\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/index.html",
+      "oF" : 0
+    },
+    "\/public\/logo192.png" : {
+      "ft" : 32768,
+      "iS" : 5347,
+      "oA" : 0,
+      "oAP" : "\/public\/logo192.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/public\/logo512.png" : {
+      "ft" : 32768,
+      "iS" : 9664,
+      "oA" : 0,
+      "oAP" : "\/public\/logo512.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/public\/manifest.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/public\/manifest-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/public\/robots.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/robots.txt",
+      "oF" : 0
+    },
     "\/README.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -97,6 +177,108 @@
       "pME" : 1,
       "rFN" : 0,
       "uCM" : 0
+    },
+    "\/src\/App.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/src\/App-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/src\/App.sass" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 2,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/App.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/src\/App.test.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/src\/App.test-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/src\/icons\/icon-edit.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/src\/icons\/icon-edit.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/src\/icons\/icon-remove.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/src\/icons\/icon-remove.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/src\/index.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/index-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/src\/index.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/src\/index-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/src\/reportWebVitals.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/src\/reportWebVitals-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/src\/setupTests.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/src\/setupTests-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
     }
   },
   "hooks" : [
