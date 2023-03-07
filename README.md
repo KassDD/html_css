@@ -2,7 +2,7 @@
 
 hello world
 
-Run two commands in terminal:
+**Run two commands in terminal:**
 - 'npm i' - первоначальная установка
 - 'npm start' - запуск режима разработки
 
