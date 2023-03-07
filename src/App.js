@@ -5,12 +5,13 @@ import Header from './Header'
 import Footer from './Footer'
 
 import './App.sass'
+import './layout.sass'
 
 function App() {
   return (
     <div className='App'>
       <Header />
-      <main>
+      <main className='main_main'>
         <Routes>
           <Route path='/' element={<MainForm />} />
           <Route path='*' element={<NotFound />} />

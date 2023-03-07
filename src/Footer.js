@@ -1,5 +1,6 @@
+import './layout.sass'
 function Footer() {
-  return <div>666</div>
+  return <footer className='main_footer'>666</footer>
 }
 
 export default Footer
