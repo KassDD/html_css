@@ -1,5 +1,22 @@
 $h_header: 120px
-$h_footer: 60px
+$h_footer: 160px
+
+@mixin link()
+  cursor: pointer
+  &:hover
+    color: #F49AC1
+  &:active
+    color: #EC008C
+
+@mixin social-icon($icon)
+  background-image: url($icon)
+  background-size: 20px
+  background-position: 0% 50%
+  background-repeat: no-repeat
+  padding-left: 32px
+  background-color: none
+
+
 .main_header
   box-sizing: border-box
   height: $h_header
@@ -8,21 +25,14 @@ $h_footer: 60px
   font-family: 'Lobster'
   padding-right: 20px
   
-
-.main_header__logo
-  aspect-ratio: 2 / 1
-  max-height: 100%
-
 .main_main
   border: 10px solid #89c8d9
   box-sizing: border-box
   height: calc(100vh - $h_header - $h_footer)
 
-
-.main_footer
-  border: 10px solid #7e7e7e
-  box-sizing: border-box
-  height: $h_footer
+.main_header__logo
+  aspect-ratio: 2 / 1
+  max-height: 100%
 
 .main_header__bar-contact
   display: flex
@@ -48,3 +58,77 @@ $h_footer: 60px
 
 .main_header__contact
   color: #27BDBE
+  font-weight: bold
+  white-space: nowrap
+
+.main_footer
+  box-sizing: border-box
+  height: $h_footer
+  display: flex
+  justify-content: space-between
+  font-family: 'Lobster'
+
+.main_footer__logo-wrap
+  position: relative
+
+.main_footer__logo
+  aspect-ratio: 2 / 1
+  max-height: 100%
+  position: relative
+  top: -15px
+
+.main_footer__logo-desc
+  position: absolute
+  top: 70%
+  left: 60%
+  transform: translate(-50%, -50%)
+  color: #27BDBE
+  white-space: nowrap
+
+.main_footer__contact-wrap
+  display: flex
+  flex-direction: row
+  gap: 15vw
+  padding-right: 20px
+
+.main_footer__contact-col1, .main_footer__contact-col2
+  display: flex
+  flex-direction: column
+  gap: 10px
+  justify-content: center
+
+.main_footer__contact-col1
+  color: #EC008C
+  font-weight: bold
+  white-space: nowrap
+
+.main_footer__contact-col2
+  color: #EC008C
+  font-weight: bold
+  white-space: nowrap
+  
+
+.main_footer__phone
+
+.main_footer__phone-link
+  text-decoration: none
+  color: inherit
+  text-decoration: inherit
+
+.main_footer__phone--hidden
+  display: none
+
+.main_footer__address
+
+.main_footer__social-ig
+  @include link()
+  @include social-icon("icons/instagram.svg")
+
+.main_footer__social-tw
+  @include link()
+  @include social-icon("icons/twitter.svg")
+
+.main_footer__social-yt
+  @include link()
+  @include social-icon("icons/youtube.svg")
+  
