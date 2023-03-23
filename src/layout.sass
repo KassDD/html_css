@@ -16,7 +16,6 @@ $h_footer: 160px
   padding-left: 32px
   background-color: none
 
-
 .main_header
   box-sizing: border-box
   height: $h_header
@@ -24,12 +23,17 @@ $h_footer: 160px
   justify-content: space-between
   font-family: 'Lobster'
   padding-right: 20px
-  
-.main_main
-  border: 10px solid #89c8d9
-  box-sizing: border-box
-  height: calc(100vh - $h_header - $h_footer)
+  position: relative
+  box-shadow: 0 0 0 1px rgba(244, 154, 193, 0.38)
 
+.main_main
+  box-sizing: border-box
+  min-height: calc(100vh - $h_header - $h_footer)
+  overflow: hidden
+  position: relative
+
+.main_header__logo-wrap
+  display: block
 .main_header__logo
   aspect-ratio: 2 / 1
   max-height: 100%
@@ -42,11 +46,12 @@ $h_footer: 160px
 .main_header__navbar
   display: flex
   gap: 30px
-  
+
 .main_header__navlink
   color: #EC008C
   cursor: pointer
   user-select: none
+  text-decoration: none
   &:hover
     color: #F49AC1
   &:active
@@ -67,6 +72,7 @@ $h_footer: 160px
   display: flex
   justify-content: space-between
   font-family: 'Lobster'
+  box-shadow: 0 0 0 1px rgba(244, 154, 193, 0.38)
 
 .main_footer__logo-wrap
   position: relative
@@ -106,7 +112,7 @@ $h_footer: 160px
   color: #EC008C
   font-weight: bold
   white-space: nowrap
-  
+
 
 .main_footer__phone
 
@@ -131,4 +137,3 @@ $h_footer: 160px
 .main_footer__social-yt
   @include link()
   @include social-icon("icons/youtube.svg")
-  

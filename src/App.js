@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
+import HomePage from './HomePage'
 import MainForm from './MainForm'
 import NotFound from './NotFound'
 import Header from './Header'
@@ -13,7 +14,8 @@ function App() {
       <Header />
       <main className='main_main'>
         <Routes>
-          <Route path='/' element={<MainForm />} />
+          {/* <Route path='/' element={<MainForm />} /> */}
+          <Route path='/' element={<HomePage/>} />
           <Route path='*' element={<NotFound />} />
         </Routes>
       </main>
